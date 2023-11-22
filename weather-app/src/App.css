@@ -3,7 +3,7 @@ body {
   font-weight: 300;
   font-style: normal;
   background: #f9f7fe;
-  background-image: url('https://media.istockphoto.com/id/517188688/photo/mountain-landscape.jpg?s=612x612&w=0&k=20&c=A63koPKaCyIwQWOTFBRWXj_PwCrR4cEoOw2S9Q7yVl8=');
+  background-image: url('./Image/nature.jpg');
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;

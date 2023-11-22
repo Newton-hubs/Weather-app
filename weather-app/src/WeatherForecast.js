@@ -17,12 +17,10 @@ export default function WeatherForecast(props) {
     axios
       .get(apiUrl)
       .then((response) => {
-        console.log("API response:", response.data);
         setForecast(response.data.list);
         setLoaded(true);
       })
       .catch((error) => {
-        console.error("Error fetching forecast:", error);
         setLoaded(true);
       });
   }, [props.city]);

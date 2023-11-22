@@ -48,7 +48,6 @@ export default function Weather(props) {
       handleResponse(response);
       setError(null);
     } catch (error) {
-      console.error('Error:', error.message);
       setError("City not found. Please try again.");
     } finally {
       setLoading(false);
