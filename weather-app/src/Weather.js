@@ -89,7 +89,7 @@ export default function Weather(props) {
         <WeatherInfo data={weatherData} />
         <WeatherForecast coordinates={weatherData.coordinates} city={weatherData.city} />
         <footer>
-          This Weather-app project was coded by Namratha Joshi
+          This Weather-app project was coded by NJ
         </footer>
       </div>
     );
